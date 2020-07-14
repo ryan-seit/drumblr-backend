@@ -1,3 +1,5 @@
+# Drumblr
+
 Designed as an homage to late 80's/early 90's drum machines, Drumblr is a digital drum machine users can play in the browser, with customizable tempo, rhythms, and presets.
 
 Drumblr uses the midi-sounds-react library (https://www.npmjs.com/package/midi-sounds-react) for samples, allowing users to play and update beats in real time.
@@ -8,24 +10,24 @@ Check out the backend code here: https://github.com/christopherleja/drumblr_back
 
 To use:
 
-```
+```js
 // clone backend first
-$ git clone git@github.com:christopherleja/drumblr_backend.git
+$ git clone https://github.com/ryan-seit/drumblr-backend.git
 
 // cd into backend folder
-$ cd drumblr_backend
+$ cd drumblr-backend
 
 // install dependencies and start the server
 $ bundle && rails s
 
-// clone this repository
-$ git clone git@github.com:christopherleja/drumblr_frontend.git 
+// clone frontend repository
+$ git clone https://github.com/ryan-seit/drumblr-frontend.git
 
 // cd into the repository
 $ cd drumblr_frontend
 
 // install dependencies and run the app
-$ npm install && npm start
+$ npm i && s
 ```
 
-Made by Ryan Seit, Kevin Clark, and Christopher Leja
+© 2020 - Created by Christopher Leja, Kevin Clark and Ryan Seit
